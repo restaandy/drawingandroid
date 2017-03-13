@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#f54337"
+	    tools:context="com.example.draw.MainActivity">
+	    <!-- This is the view on which we will draw. -->
+
+    <com.example.draw.DemoView
+        android:id="@+id/view1"
+        android:layout_width="250dp"
+        android:layout_height="250dp" 
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:layout_marginTop="100dp"
+        />
+	    
+	</RelativeLayout>
